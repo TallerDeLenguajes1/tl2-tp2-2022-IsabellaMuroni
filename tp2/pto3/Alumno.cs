@@ -16,5 +16,14 @@ namespace pto3
         //Constructor
         public Alumno () {}
 
+        public Alumno (int id, string nombre, string apellido, int dni, int curso)
+        {
+            id = Id;
+            nombre = Nombre;
+            apellido = Apellido;
+            dni = Dni;
+            curso = Curso;
+        }
+
     }
 }
