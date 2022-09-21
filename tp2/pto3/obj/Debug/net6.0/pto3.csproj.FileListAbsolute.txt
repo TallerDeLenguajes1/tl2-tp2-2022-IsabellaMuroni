@@ -3,3 +3,18 @@ D:\taller_2\tl2-tp2-2022-IsabellaMuroni\tp2\pto3\obj\Debug\net6.0\pto3.Generated
 D:\taller_2\tl2-tp2-2022-IsabellaMuroni\tp2\pto3\obj\Debug\net6.0\pto3.AssemblyInfoInputs.cache
 D:\taller_2\tl2-tp2-2022-IsabellaMuroni\tp2\pto3\obj\Debug\net6.0\pto3.AssemblyInfo.cs
 D:\taller_2\tl2-tp2-2022-IsabellaMuroni\tp2\pto3\obj\Debug\net6.0\pto3.csproj.CoreCompileInputs.cache
+D:\Backup Lenovo\Disco D\Facultad\2022\Taller de Lenguajes II\TP_2\tl2-tp2-2022-IsabellaMuroni\tp2\pto3\obj\Debug\net6.0\pto3.csproj.AssemblyReference.cache
+D:\Backup Lenovo\Disco D\Facultad\2022\Taller de Lenguajes II\TP_2\tl2-tp2-2022-IsabellaMuroni\tp2\pto3\obj\Debug\net6.0\pto3.GeneratedMSBuildEditorConfig.editorconfig
+D:\Backup Lenovo\Disco D\Facultad\2022\Taller de Lenguajes II\TP_2\tl2-tp2-2022-IsabellaMuroni\tp2\pto3\obj\Debug\net6.0\pto3.AssemblyInfoInputs.cache
+D:\Backup Lenovo\Disco D\Facultad\2022\Taller de Lenguajes II\TP_2\tl2-tp2-2022-IsabellaMuroni\tp2\pto3\obj\Debug\net6.0\pto3.AssemblyInfo.cs
+D:\Backup Lenovo\Disco D\Facultad\2022\Taller de Lenguajes II\TP_2\tl2-tp2-2022-IsabellaMuroni\tp2\pto3\obj\Debug\net6.0\pto3.csproj.CoreCompileInputs.cache
+D:\Backup Lenovo\Disco D\Facultad\2022\Taller de Lenguajes II\TP_2\tl2-tp2-2022-IsabellaMuroni\tp2\pto3\bin\Debug\net6.0\pto3.exe
+D:\Backup Lenovo\Disco D\Facultad\2022\Taller de Lenguajes II\TP_2\tl2-tp2-2022-IsabellaMuroni\tp2\pto3\bin\Debug\net6.0\pto3.deps.json
+D:\Backup Lenovo\Disco D\Facultad\2022\Taller de Lenguajes II\TP_2\tl2-tp2-2022-IsabellaMuroni\tp2\pto3\bin\Debug\net6.0\pto3.runtimeconfig.json
+D:\Backup Lenovo\Disco D\Facultad\2022\Taller de Lenguajes II\TP_2\tl2-tp2-2022-IsabellaMuroni\tp2\pto3\bin\Debug\net6.0\pto3.dll
+D:\Backup Lenovo\Disco D\Facultad\2022\Taller de Lenguajes II\TP_2\tl2-tp2-2022-IsabellaMuroni\tp2\pto3\bin\Debug\net6.0\pto3.pdb
+D:\Backup Lenovo\Disco D\Facultad\2022\Taller de Lenguajes II\TP_2\tl2-tp2-2022-IsabellaMuroni\tp2\pto3\obj\Debug\net6.0\pto3.dll
+D:\Backup Lenovo\Disco D\Facultad\2022\Taller de Lenguajes II\TP_2\tl2-tp2-2022-IsabellaMuroni\tp2\pto3\obj\Debug\net6.0\refint\pto3.dll
+D:\Backup Lenovo\Disco D\Facultad\2022\Taller de Lenguajes II\TP_2\tl2-tp2-2022-IsabellaMuroni\tp2\pto3\obj\Debug\net6.0\pto3.pdb
+D:\Backup Lenovo\Disco D\Facultad\2022\Taller de Lenguajes II\TP_2\tl2-tp2-2022-IsabellaMuroni\tp2\pto3\obj\Debug\net6.0\pto3.genruntimeconfig.cache
+D:\Backup Lenovo\Disco D\Facultad\2022\Taller de Lenguajes II\TP_2\tl2-tp2-2022-IsabellaMuroni\tp2\pto3\obj\Debug\net6.0\ref\pto3.dll
