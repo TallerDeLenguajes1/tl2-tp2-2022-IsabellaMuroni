@@ -13,7 +13,7 @@ namespace pto3
         private int Dni { get; set; }
         public int Curso { get; set; }
 
-            //Constructor
+        //Constructor
         public Alumno () {}
 
         public Alumno (int id, string nombre, string apellido, int dni, int curso)
@@ -25,16 +25,9 @@ namespace pto3
             this.curso = Curso;
         }
 
-        public int Id1 { get => Id; set => Id = value; }
-        public string Nombre1 { get => Nombre; set => Nombre = value; }
-        public string Apellido1 { get => Apellido; set => Apellido = value; }
-        public int Dni1 { get => Dni; set => Dni = value; }
-        public int Curso1 { get => Curso; set => Curso = value; }
-
-
         public string concatenarDatos()
         {
-            return Id1 + ";" + Apellido1 + ";" + Nombre1;
+            return id + ";" + apellido + ";" + nombre;
         }
     }
     
