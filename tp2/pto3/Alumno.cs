@@ -7,22 +7,28 @@ namespace pto3
 {
     public class Alumno
     {
-        private int Id { get; set; }
-        private string Nombre { get; set; }
-        private string Apellido { get; set; }
-        private int Dni { get; set; }
-        public int Curso { get; set; }
+        private int Id;
+        private string Nombre;
+        private string Apellido;
+        private int Dni;
+        private int Curso;
+
+        public int id { get; set; }
+        public string nombre { get; set; }
+        public string apellido { get; set; }
+        public int dni { get; set; }
+        public int curso { get; set; }
 
         //Constructor
-        public Alumno () {}
+        public Alumno () { }
 
         public Alumno (int id, string nombre, string apellido, int dni, int curso)
         {
-            this.id = Id;
-            this.nombre = Nombre;
-            this.apellido = Apellido;
-            this.dni = Dni;
-            this.curso = Curso;
+            this.Id = id;
+            this.Nombre = nombre;
+            this.Apellido = apellido;
+            this.Dni = dni;
+            this.Curso = curso;
         }
 
         public string concatenarDatos()

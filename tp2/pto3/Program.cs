@@ -10,6 +10,7 @@ namespace pto3 {
     {
         static void Main (string [] args) 
         {
+           
             //Creo listas de alumnos según cursos
             List<Alumno> Atletismo = new List<Alumno>();
             List<Alumno> Voley = new List<Alumno>();
@@ -18,16 +19,17 @@ namespace pto3 {
             //Creo nuevo objeto
             Alumno nuevoAlumno = new Alumno();
             
-            nuevoAlumno.nombre = nombre;
-            nuevoAlumno.apellido = apellido;
+            
 
             Console.WriteLine("Instituto de Educación Física");
             Console.WriteLine("Nombre: ");
-            nombre = Console.ReadLine();
+            string nombre = Console.ReadLine();
+            nuevoAlumno.nombre = nombre;
             Console.WriteLine("Apellido: ");
-            apellido = Console.ReadLine();
+            string apellido = Console.ReadLine();
+            nuevoAlumno.apellido = apellido;
 
-            Console.WriteLine(nuevoAlumno.Nombre1);
+            Console.WriteLine(nuevoAlumno.concatenarDatos());
 
         }
         
