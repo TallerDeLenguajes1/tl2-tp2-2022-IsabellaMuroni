@@ -35,6 +35,19 @@ namespace pto3
         {
             return id + ";" + apellido + ";" + nombre;
         }
+
+        /*
+        public void listar_info_pedido(){
+            Console.WriteLine("DATOS PEDIDO");
+            Console.WriteLine("Numero de pedido: {0}",IDpedido);
+            Console.WriteLine("Observaciones: {0}",detalle);
+            Console.WriteLine("Estado entrega: {0}",Enum.GetName(typeof(Estados),estadoPedido));
+            Console.WriteLine();
+            Console.WriteLine("DATOS CLIENTE");
+            cliente!.listar_info_cliente();
+            Console.WriteLine();
+        }
+        */
     }
     
 }
