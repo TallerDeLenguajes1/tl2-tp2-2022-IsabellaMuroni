@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO;
-
+using NLog;
 
 namespace pto3
 {
@@ -12,6 +12,8 @@ namespace pto3
     {
         public static void cargarArchivo (List<Alumno> listaAlumnos, string csvFileName)
         {
+            NLog.Logger logger = NLog.LogManager.GetCurrentClassLogger();
+
             string directorio = "Lista de Alumnos";
             if (!Directory.Exists (directorio))//Si no exixte el directorio, lo crea
             {
@@ -36,10 +38,13 @@ namespace pto3
 
                 Console.WriteLine ("listaalumnos" + csvFileName + "se guardó exitosamente"); 
             }
-            catch (System.Exception)
+            catch (Exception ex)
             {
                 Console.WriteLine("\n\n¡Hubo un error!");
-                Console.WriteLine(error.Message);
+                Console.WriteLine(ex.Message);
+                logger.Warn(ex);
+                logger.Error(ex);
+                logger.Fatal(ex);
             }
         }
         
@@ -48,7 +53,7 @@ namespace pto3
         public static void cargarListado (List<Alumno> listaAlumnos, string fileName)
         {
             string [] content = File.ReadAllLines(fileName);
-            foreach (strign line in content)
+            foreach (string line in content)
             {
                 string [] delimitedContent = line.Split(';');
                 int dni = Convert.ToInt32(delimitedContent[0]);
@@ -59,5 +64,37 @@ namespace pto3
                 listaAlumnos.Add(newObject);
             }
         }
+
+        public static void leerCsv (string ruta)
+        {
+            //StreamReader archivo = new StreamRead (ruta);
+            FileStream archivoNuevo = new FileStream(ruta, FileMode.OpenOrCreate);
+            StreamReader archivo = new StreamReader (archivoNuevo);
+
+            string separador = ",";
+            string linea;
+            archivo.ReadLine();//Si el archivo no tiene encabezado se borra
+
+            while ((linea = archivo.ReadLine()) != null)
+            {
+                string[] fila = linea.Split(separador);
+                string nombre = fila[0];
+                int telefono = Convert.ToInt32(fila[1]);
+            }
+
+        }
+
+        /*
+        public static void limpiarCSV(string ruta)
+        {
+            File.Delete(ruta);
+            FileStream Fstream = new FileStream(ruta, FileMode.OpenOrCreate);
+            using (StreamWriter StreamW = new StreamWriter(Fstream))
+            {
+                StreamW.WriteLine("ID,Apellido,Nombre,DNI");
+            }
+            Fstream.Close();
+        }
+        */
     }
 }

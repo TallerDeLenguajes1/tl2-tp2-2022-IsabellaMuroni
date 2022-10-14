@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using NLog;
 
 
 namespace pto3 {
@@ -10,6 +11,7 @@ namespace pto3 {
     {
         static void Main (string [] args) 
         {
+            NLog.Logger Logger = NLog.LogManager.GetCurrentClassLogger(); //para loggear reportes
            
             //Creo listas de alumnos según cursos
             List<Alumno> Atletismo = new List<Alumno>();
